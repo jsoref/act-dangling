@@ -1,0 +1,14 @@
+name: Test
+on:
+  push:
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: test
+      shell: bash
+      run: "echo this is not reached"
