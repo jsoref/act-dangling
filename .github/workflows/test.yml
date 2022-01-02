@@ -11,4 +11,4 @@ jobs:
       uses: actions/checkout@v2
     - name: test
       shell: bash
-      run: "echo this is not reached"
+      run: "ls -hal"
